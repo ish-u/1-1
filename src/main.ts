@@ -1,4 +1,7 @@
 const sketches = [
+  'polar',
+  'scratch-bongo',
+  'flower-garden',
   'speak-to-me',
   'breathe-in-the-air',
   'on-the-run',
@@ -10,9 +13,7 @@ const sketches = [
   'brain-damage',
   'eclipse',
   'rubiks-cube',
-  'scratch-bongo',
-  'polar',
-  'flower-garden',
+  'red-and-blue',
 ];
 
 
