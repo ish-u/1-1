@@ -9,10 +9,11 @@ const BRAIN_DAMAGE = (p5, el) => {
     let tileSize = 0;
     let tileType = [];
     p5.setup = () => {
-        p5.createCanvas(p5.windowHeight, p5.windowHeight);
-        tileSize = p5.windowHeight / 24;
-        rows = p5.floor(p5.windowHeight / tileSize);
-        cols = p5.floor(p5.windowHeight / tileSize);
+        const { height } = el.getBoundingClientRect();
+        p5.createCanvas(height, height);
+        tileSize = height / 24;
+        rows = p5.floor(height / tileSize);
+        cols = p5.floor(height / tileSize);
 
         for (let i = 0; i <= rows; i++) {
             const row = [];
