@@ -4,7 +4,6 @@
  * @returns {p5} The created p5 instance.
  */
 const MONEY = (p5, el) => {
-    let captured = false;
     let spacing = 3;
     let circleSize = 24;
     let currencies = ["$", "€", "£", "¥", "₹", "₿"];
@@ -51,11 +50,6 @@ const MONEY = (p5, el) => {
                 let s = k / 18 + circleSize;
                 p5.image(moneyGraphic, x, y, s, s);
             }
-        }
-        if (!captured && p5.frameCount > 100) {
-            p5.saveCanvas('firstFrame', 'png'); // capture the canvas
-            captured = true; // prevent further captures
-            console.log('Captured first frame!');
         }
     };
 

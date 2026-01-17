@@ -4,7 +4,6 @@
  * @returns {p5} The created p5 instance.
  */
 const ECLIPSE = (p5, el) => {
-    let isCaptured = false;
     class Moon {
         x;
         y;
@@ -55,11 +54,6 @@ const ECLIPSE = (p5, el) => {
         p5.background(0);
         for (const moon of moons) {
             moon.show();
-        }
-        if (!isCaptured && p5.frameCount > 100) {
-            p5.saveCanvas('eclipse', 'png'); // capture the canvas
-            isCaptured = true; // prevent further captures
-            console.log('Captured first frame!');
         }
     };
 
