@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-1 | Eclipse</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+</head>
+
+<style>
+    :root {
+        font-family: Helvetica, system-ui, sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+        gap: 1rem;
+    }
+
+    #sketch {
+        height: calc(min(100vh, 100vw) - 5rem);
+        width: calc(min(100vh, 100vw) - 5rem);
+        aspect-ratio: 1 / 1;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(min(100vh, 100vw) - 5rem);
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+</style>
+
+<body>
+    <div id="container">
+        <div id="info">
+            <a href="/">1:1</a>
+            <h3>Eclipse</h3>
+        </div>
+        <div id="sketch"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
