@@ -15,6 +15,7 @@ const sketches = [
   'rubiks-cube',
   'red-and-blue',
   'orbit',
+  'dice',
 ];
 
 
