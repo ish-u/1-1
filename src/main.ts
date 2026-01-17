@@ -922,7 +922,7 @@
 
 const sketches = [
   'speak-to-me',
-  'breath-in-the-air',
+  'breathe-in-the-air',
   'on-the-run',
   'time',
   'greatest-gig',
