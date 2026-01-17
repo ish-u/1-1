@@ -11,6 +11,7 @@ const sketches = [
   'eclipse',
   'rubiks-cube',
   'scratch-bongo',
+  'polar',
 ];
 
 
