@@ -17,6 +17,7 @@ const sketches = [
   'orbit',
   'dice',
   'rect-spiral',
+  'chains',
 ];
 
 
