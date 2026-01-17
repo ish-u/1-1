@@ -28,7 +28,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 const infoCell = document.createElement("div");
 infoCell.classList.add("cell");
 infoCell.id = "info-cell";
-infoCell.innerHTML = `1:1`;
+infoCell.innerHTML = `
+<p id="info-title">1:1</p>
+<p id="info-subtitle">sketches by <a href="https://anmol.ninja" target="_blank">anmol.ninja</a></p>
+
+`;
 
 document.querySelector<HTMLDivElement>('#grid')!.appendChild(infoCell);
 for (const sketch of sketches) {

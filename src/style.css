@@ -34,12 +34,28 @@
 }
 
 #info-cell {
-  font-size: 128px;
+  /* font-size: 128px; */
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: default;
+}
+
+#info-title {
+  font-size: 128px;
+}
+
+#info-subtitle {
+  font-size: 24px;
+}
+#info-subtitle a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: 600px) {
