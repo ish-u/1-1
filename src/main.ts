@@ -14,6 +14,7 @@ const sketches = [
   'eclipse',
   'rubiks-cube',
   'red-and-blue',
+  'orbit',
 ];
 
 
