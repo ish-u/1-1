@@ -12,6 +12,7 @@ const sketches = [
   'rubiks-cube',
   'scratch-bongo',
   'polar',
+  'flower-garden',
 ];
 
 
