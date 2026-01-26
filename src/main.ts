@@ -1,4 +1,5 @@
 const sketches = [
+  'red-and-yellow',
   'polar',
   'scratch-bongo',
   'flower-garden',
