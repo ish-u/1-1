@@ -7,7 +7,6 @@ const RED_AND_YELLOW = (p5, el) => {
     let rows;
     let cols;
     let rectSize = 0;
-    let isCaptured = false;
 
     p5.setup = () => {
         const { height } = el.getBoundingClientRect();
@@ -46,10 +45,6 @@ const RED_AND_YELLOW = (p5, el) => {
 
                 p5.pop();
             }
-        }
-        if(!isCaptured && p5.frameCount % 512 === 0) {
-            isCaptured = true;
-            p5.saveCanvas('red-and-yellow', 'png');
         }
     }
 };
