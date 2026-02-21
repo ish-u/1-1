@@ -4,7 +4,6 @@
  * @returns {p5} The created p5 instance.
  */
 const CYAN_TEAL = (p5, el) => {
-  let isCaptured = false;
   p5.setup = () => {
     const { height } = el.getBoundingClientRect();
     p5.createCanvas(height, height);
@@ -38,11 +37,6 @@ const CYAN_TEAL = (p5, el) => {
       p5.rect(x, y, (10 + i) * i);
 
       p5.pop();
-    }
-
-    if (!isCaptured && p5.mouseIsPressed) {
-      p5.saveCanvas("cyan-teal", "png");
-      isCaptured = true;
     }
   };
 };
