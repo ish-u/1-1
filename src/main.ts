@@ -1,4 +1,5 @@
 const sketches = [
+  'cyan-teal',
   'circle-pulse',
   'red-and-yellow',
   'polar',
