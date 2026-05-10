@@ -1,4 +1,5 @@
 const sketches = [
+  "tiles",
   "circle-rectangle",
   "circle-box",
   "jet-black",
