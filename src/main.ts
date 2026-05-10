@@ -1,4 +1,5 @@
 const sketches = [
+  "lissajous-planet",
   "tiles",
   "circle-rectangle",
   "circle-box",
