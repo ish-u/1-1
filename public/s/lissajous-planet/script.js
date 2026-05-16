@@ -10,8 +10,6 @@ const LISSAJOUS_PLANET = (p5, el) => {
   let d;
   let cam;
 
-  let isClicked = false;
-
   p5.setup = () => {
     const { height } = el.getBoundingClientRect();
     p5.createCanvas(height, height, p5.WEBGL);
@@ -87,10 +85,7 @@ const LISSAJOUS_PLANET = (p5, el) => {
       p5.pop();
     }
 
-    if (!isClicked && p5.frameCount > 100) {
-      p5.saveCanvas("lissajous-planet", "png");
-      isClicked = true;
-    }
+ 
   };
 };
 
