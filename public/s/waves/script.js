@@ -34,7 +34,6 @@ const WAVES = (p5, el) => {
   let shapeSize;
   let currentBgColorIdx;
   let currentFillColorIdx;
-  let isClicked = false;
 
   p5.setup = () => {
     const { height } = el.getBoundingClientRect();
@@ -92,10 +91,6 @@ const WAVES = (p5, el) => {
         );
         p5.pop();
       }
-    }
-    if (!isClicked && p5.frameCount > 520) {
-      p5.saveCanvas("waves", "png");
-      isClicked = true;
     }
   };
 };
