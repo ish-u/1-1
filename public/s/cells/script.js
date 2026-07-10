@@ -47,7 +47,8 @@ const CELLS = (p5, el) => {
   }
 
   p5.setup = () => {
-    p5.createCanvas(p5.windowHeight, p5.windowHeight);
+    const { height } = el.getBoundingClientRect();
+    p5.createCanvas(height, height);
     p5.angleMode(p5.DEGREES);
     ROWS = p5.height / SIZE;
     COLS = p5.height / SIZE;
