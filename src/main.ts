@@ -1,4 +1,5 @@
 const sketches = [
+  "helices",
   "cells",
   "horizon",
   "waves",
