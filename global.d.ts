@@ -8,5 +8,4 @@ declare global {
   interface p5 extends P5 {}
 }
 
-export { };
-
+export {};

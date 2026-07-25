@@ -84,8 +84,6 @@ const LISSAJOUS_PLANET = (p5, el) => {
 
       p5.pop();
     }
-
- 
   };
 };
 
