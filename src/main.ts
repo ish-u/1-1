@@ -1,4 +1,5 @@
 const sketches = [
+  "digits",
   "bezier",
   "helices",
   "cells",
