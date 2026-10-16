@@ -1,4 +1,5 @@
 const sketches = [
+  "cell-wave",
   "boxes",
   "digits",
   "bezier",
