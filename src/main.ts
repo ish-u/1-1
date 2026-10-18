@@ -1,4 +1,5 @@
 const sketches = [
+  "vivid-stream",
   "cell-wave",
   "boxes",
   "digits",
