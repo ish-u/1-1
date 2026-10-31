@@ -1,4 +1,5 @@
 const sketches = [
+  "triangles",
   "gem-walker",
   "another-orbit",
   "vivid-stream",
