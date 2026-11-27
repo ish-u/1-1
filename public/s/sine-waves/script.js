@@ -18,7 +18,7 @@ const SINE_WAVES = (p5, el) => {
       p5.translate(this.x, this.y);
       const a = p5.map(this.x, 0, p5.width, 0, 720);
       const p = p5.map(this.y, 0, p5.height, 0, 540);
-      p5.rotate(2 * this.h * p5.sin(a + p + p5.frameCount));
+      p5.rotate(60 * p5.sin(a + p + p5.frameCount));
       const x1 = this.h / 2;
       const y1 = 0;
       const x2 = this.h / 2;
