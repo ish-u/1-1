@@ -1,4 +1,5 @@
 const sketches = [
+  "sine-waves",
   "ode-to-the-mets",
   "triangles",
   "gem-walker",
